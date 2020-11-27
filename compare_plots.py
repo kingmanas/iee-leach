@@ -1,7 +1,3 @@
-#Authors:: Abhishek Singh(abhishek.singh199418@gmail.com)  at University of Rochester 
-#Rights reserved to both author and University of Rochester
-
-
 import sys
 import os
 from pylab import *
@@ -15,7 +11,7 @@ Direct = []
 Leach = []
 Modified = []
 x_axis = []
-#change directory to your directory which can be found out using pwd command on terminal of linux OS
+
 DIR = "."
 for name in data:
 	for file in os.listdir(DIR):
@@ -31,10 +27,7 @@ for name in data:
 					Modified.append(value * 100)
 
 size = max(len(Modified), len(Leach))
-
-#print size
-
-#size = len(Modified) + 100000
+size = len(Modified) + 100000
 for i in range(0,size):
 	x_axis.append(i)
 
