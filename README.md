@@ -9,12 +9,11 @@ Credits to [wakwanza/leach](https://github.com/wakwanza/leach) for the LEACH pro
 
 ## How to Run  
 
-Download the ns3 simulator from [here](https://www.nsnam.org/releases/ns-3-32/)
-Upack the compressed archive.
+Download the ns3 simulator from [here](https://www.nsnam.org/releases/ns-3-32/) and unpack the compressed archive.
 
-Then paste the files in the src folder into: `ns-allinone-3.32/ns-3.32/scratch`
+Paste the files in the `src` folder into `ns-allinone-3.32/ns-3.32/scratch`
 Paste the `compare_plots.py` file into `ns-allinone-3.32/ns-3.32`
 
-cd to `ns-allinone-3.32/ns-3.32` and run `./waf` which will build all the files.
-Now run `./waf --run scratch/ieeLEACH`
+cd to `ns-allinone-3.32/ns-3.32` and run `./waf` which will build all the files followed by `./waf --run scratch/ieeLEACH` to run the simulation.  
+
 Next run `python3 ./compare_plots.py` to see a comparison of energy consumption through a graph.
