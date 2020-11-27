@@ -5,7 +5,8 @@ A simulation in NS3 simulator
 This is an implementation of the following reasearch paper:  
 [Liu, Y.; Wu, Q.; Zhao, T.; Tie, Y.; Bai, F.; Jin, M. An Improved Energy-Efficient Routing Protocol for Wireless Sensor Networks. Sensors 2019, 19, 4579.](https://www.mdpi.com/1424-8220/19/20/4579)
 
-Credits to [wakwanza/leach](https://github.com/wakwanza/leach) for the LEACH protocol code. We modified it further according to the paper's needs.
+Credits to [wakwanza/leach](https://github.com/wakwanza/leach) for the LEACH protocol code. We modified it further according to the paper's needs.     
+We would also like to thank [AbhishekUoR](https://github.com/AbhishekUoR) whose LEACH implementation was also very useful for us.
 
 ## How to Run  
 
